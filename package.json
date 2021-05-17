@@ -1,0 +1,14 @@
+{
+  "name": "generic-static-site",
+  "version": "1.0.0",
+  "description": "A simple static site template with error pages",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nicholas Westerhausen",
+  "license": "MIT",
+  "repository": {
+    "type": "GIT",
+    "url": "https://github.com/nwesterhausen/generic-static-site"
+  }
+}
