@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+        <title>{{ pagetitle }}</title>
+
+        {% include "partials/stylesheets.njk" %}
+    </head>
+
+    <body>
+        <div class="container my-2" id="maincontent-Zi29" style="display:none">
+            {% block content %}{% endblock %}
+        </div>
+        {% include "partials/scripts.njk" %}
+    </body>
+</html>
