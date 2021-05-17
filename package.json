@@ -3,12 +3,19 @@
   "version": "1.0.0",
   "description": "A simple static site template with error pages",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp"
   },
   "author": "Nicholas Westerhausen",
   "license": "MIT",
   "repository": {
     "type": "GIT",
     "url": "https://github.com/nwesterhausen/generic-static-site"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-clean": "^0.4.0",
+    "gulp-nunjucks-render": "^2.2.3",
+    "nunjucks": "^3.2.3"
   }
 }
